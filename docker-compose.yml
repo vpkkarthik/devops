@@ -1,0 +1,14 @@
+version: '3'
+services:
+container_name:jenkins
+images:'jenkins'
+build:path
+port:
+-"8080:8080"
+env:
+-envpath
+depend_on:
+-url or image
+
+
+
