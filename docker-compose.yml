@@ -1,3 +1,17 @@
+#dockerfile
+FROM ubuntu
+MAINTAINER KARTHIK
+RUN apt-get update
+RUN APT-GET INSTALL
+ENV enviromentname
+WORKDIR /OPT/DOCKER
+RUN WGETURL
+ADD WGETURL
+EXPOSE PORTNO
+CMD START SERVICE HTTPD
+
+
+
 version: '3'
 services:
 container_name:jenkins
